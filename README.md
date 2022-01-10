@@ -1,2 +1,2 @@
-# static-prototype
-Prototype for pages that require no dynamic interactions.
+# prototype
+Prototype for Leadership Space Hub product suite.
