@@ -48,8 +48,6 @@ body {
   background-color: #023047;
   height: 0.5rem;
 }
-.info {
-  background-color: #008080;
-  width: 4rem;
-  height: 4rem;
+.login-card {
+  margin-top: 4rem;
 }
