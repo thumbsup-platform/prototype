@@ -17,9 +17,6 @@ body {
 .white {
   color: #fff;
 }
-.navigation {
-  background-color: #023047;
-}
 .centered {
   text-align: center;
 }
@@ -28,6 +25,9 @@ body {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.navigation {
+  background-color: #023047;
 }
 .section-1 {
   background-color: #023047;
@@ -47,4 +47,9 @@ body {
 .divider {
   background-color: #023047;
   height: 0.5rem;
+}
+.info {
+  background-color: #008080;
+  width: 4rem;
+  height: 4rem;
 }
