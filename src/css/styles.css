@@ -29,6 +29,15 @@ body {
 .navigation {
   background-color: #023047;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: #fff;
+  color: #008080;
+  text-align: center;
+}
 .section-1 {
   background-color: #023047;
   padding: 2rem;
