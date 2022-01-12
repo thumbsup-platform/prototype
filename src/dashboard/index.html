@@ -112,6 +112,109 @@
       </div>
     </div>
 
+    <!-- admin view toggle -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="d-flex flex-row-reverse">
+            <div class="form-check form-switch my-3">
+              <label class="form-check-label me-3 teal" for="adminView">
+                <h4>Admin view</h4>
+              </label>
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="adminView"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- account creation -->
+    <div id="accountCreation" class="container-fluid mb-5">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title centered mb-5 teal-bg py-2 white">
+                Account creation
+              </h2>
+              <div class="d-grid gap-2">
+                <h6 class="card-subtitle my-2 text-muted">Email address</h6>
+                <div class="input-group my-1" id="login-section">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="email@address.com"
+                    aria-label="user-email"
+                    aria-describedby="login-email"
+                  />
+                </div>
+              </div>
+              <div class="d-grid gap-2 pt-2">
+                <h6 class="card-subtitle my-2 text-muted">
+                  Account ID <em>(auto-generated)</em>
+                </h6>
+                <div class="input-group my-1" id="login-section">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="0987654321"
+                    aria-label="user-email"
+                    disabled
+                    aria-describedby="login-email"
+                  />
+                </div>
+              </div>
+              <div class="d-grid gap-2 pt-2">
+                <h6 class="card-subtitle my-2 text-muted">Password</h6>
+                <div class="input-group my-1" id="login-section">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="password"
+                    aria-label="password"
+                    aria-describedby="login-password"
+                  />
+                </div>
+              </div>
+              <div class="d-grid gap-2 pt-2">
+                <h6 class="card-subtitle my-2 text-muted">Re-enter password</h6>
+                <div class="input-group my-1" id="login-section">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="type password again"
+                    aria-label="password"
+                    aria-describedby="login-password"
+                  />
+                </div>
+              </div>
+              <div class="d-flex flex-row-reverse">
+                <a
+                  class="btn btn-warning mt-3"
+                  type="button"
+                  id="login-section"
+                  href="./dashboard/index.html"
+                >
+                  Save <i class="bi bi-cloud-download-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <div class="my-5">
+      <br />
+    </div>
+
     <!-- footer -->
 
     <footer class="py-3 text-muted border-top footer">
@@ -119,7 +222,7 @@
     </footer>
 
     <!-- javascript -->
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
