@@ -8,6 +8,9 @@ body {
 .teal {
   color: #008080;
 }
+.teal-bg {
+  background-color: #008080;
+}
 .dark-blue {
   color: #023047;
 }
