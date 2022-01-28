@@ -50,6 +50,10 @@ body {
   text-transform: uppercase;
 }
 
+.align-right {
+  text-align: right;
+}
+
 .large-text {
   font-size: 1.5rem;
 }
@@ -138,4 +142,22 @@ body {
 .demo-link:visited {
   text-decoration: none;
   color: @white;
+}
+
+.feature-highlight-1 {
+  height: 13rem;
+}
+
+// auto typer blinker
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typer-target {
+  border-right: 1px solid @orange;
+  -webkit-animation: blink-caret 0.5s step-end infinite alternate;
+  animation: blink-caret 0.5s step-end infinite alternate;
 }
