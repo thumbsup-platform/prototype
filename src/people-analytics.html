@@ -102,7 +102,7 @@
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="adminMenu">
                     <li>
-                      <a class="dropdown-item" href="./dashboard/admin.html"
+                      <a class="dropdown-item" href="./dashboard/index.html"
                         >Admin</a
                       >
                     </li>
@@ -120,8 +120,8 @@
       <!-- top section -->
       <div class="row">
         <div class="col">
-          <div class="d-flex mx-3">
-            <div class="w-50 py-5">
+          <div class="d-flex flex-wrap justify-content-between mx-3">
+            <div class="py-5 people-analytics-text">
               <div class="py-3"></div>
               <h1 class="capitalize orange">
                 <strong
@@ -142,16 +142,19 @@
                 >Learn more</a
               >
             </div>
-            <div class="mx-5"></div>
-            <div class="w-50">
-              <video width="600" height="420" autoplay loop>
-                <source
-                  src="./images/pexels-kindel-media-6774635.mp4"
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <video
+              class="people-analytics-video"
+              width="600"
+              height="420"
+              autoplay
+              loop
+            >
+              <source
+                src="./images/pexels-kindel-media-6774635.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
@@ -162,11 +165,13 @@
     <!--  -->
     <div class="container-fluid demo-section-2">
       <div class="row">
-        <div class="col d-flex feature-highlight-1">
+        <div
+          class="col d-flex flex-wrap justify-content-around feature-highlight-1"
+        >
           <!-- carousel -->
           <div
             id="carouselExampleIndicators"
-            class="carousel slide w-50"
+            class="carousel slide"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -241,7 +246,7 @@
           </div>
 
           <!-- text -->
-          <div class="w-50 my-4 pe-5 align-right">
+          <div class="my-4 align-right">
             <h1 class="orange capitalize">
               <strong>at tellus at <br />urna condimentum</strong>
             </h1>
@@ -258,23 +263,23 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col ms-5">
+        <div class="col centered">
           <h2 class="mx-3 my-5 dark-blue">
             <strong
               >Justo nec ultrices Dui sapien <br />eget, mi proin sed Libero
               enim sed.</strong
             >
           </h2>
-          <div class="d-flex">
+          <div class="d-flex flex-wrap justify-content-center">
             <img
               src="./images/people-analytics-2.png"
               width="300"
               height="200"
-              class="mt-3 ms-5"
+              class="mt-3"
               alt=""
             />
             <div class="mx-5"></div>
-            <h4 class="my-5 mx-5 pe-3 capitalize orange w-25 typer-target">
+            <h4 class="my-5 mx-5 capitalize orange people-analytics-info">
               id ornare arcu odio ut sem nulla pharetra diam sit amet nisl
               suscipit adipiscing bibendum est ultricies integer quis auctor
               elit sed
