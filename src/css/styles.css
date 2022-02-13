@@ -107,14 +107,6 @@ body {
   background-color: #8ecae6;
 }
 .demo-cards {
-  height: 7rem;
-  width: auto;
-  border-radius: 2rem;
-  background-color: #fb8500;
-  border: 0.5rem solid #fff;
-}
-.demo-cards-2 {
-  height: 5rem;
   width: auto;
   border-radius: 2rem;
   background-color: #fb8500;
