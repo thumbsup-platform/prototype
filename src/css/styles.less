@@ -175,7 +175,29 @@ body {
   margin-top: 2rem;
 }
 
+// mobile - portrait
+
 @media (min-width: 320px) and (max-width: 480px) {
+  .home-image-1 {
+    .mobile-resizer-with-top();
+  }
+
+  .home-image-2 {
+    .mobile-resizer();
+  }
+
+  .home-contact {
+    .mobile-resizer();
+  }
+
+  .home-image-3 {
+    .mobile-resizer-with-top();
+  }
+}
+
+// mobile - landscape
+
+@media (min-width: 481px) and (max-width: 767px) {
   .home-image-1 {
     .mobile-resizer-with-top();
   }
