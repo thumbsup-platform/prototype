@@ -142,6 +142,10 @@ body {
   text-align: left;
 }
 
+.diagnostics-text {
+  width: 50vw;
+}
+
 .demo-image-1 {
   height: 350px;
   width: auto;
@@ -187,6 +191,11 @@ body {
 
 .mobile-resizer-2 {
   width: 60vw;
+  height: auto;
+}
+
+.mobile-resizer-3 {
+  width: 40vw;
   height: auto;
 }
 
@@ -246,6 +255,14 @@ body {
   .account-card {
     .mobile-resizer();
   }
+
+  .diagnostics-text {
+    .mobile-resizer();
+  }
+
+  .demo-image-1 {
+    .mobile-resizer-with-top();
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -255,5 +272,14 @@ body {
     .home-image-3 {
       .mobile-resizer-with-top-2();
     }
+  }
+
+  .diagnostics-text {
+    .mobile-resizer-3();
+  }
+
+  .demo-image-1 {
+    height: 40vw;
+    width: auto;
   }
 }

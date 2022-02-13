@@ -96,6 +96,9 @@ body {
   width: 25vw;
   text-align: left;
 }
+.diagnostics-text {
+  width: 50vw;
+}
 .demo-image-1 {
   height: 350px;
   width: auto;
@@ -132,6 +135,10 @@ body {
 }
 .mobile-resizer-2 {
   width: 60vw;
+  height: auto;
+}
+.mobile-resizer-3 {
+  width: 40vw;
   height: auto;
 }
 .mobile-resizer-with-top {
@@ -190,6 +197,15 @@ body {
     width: 80vw;
     height: auto;
   }
+  .diagnostics-text {
+    width: 80vw;
+    height: auto;
+  }
+  .demo-image-1 {
+    width: 80vw;
+    height: auto;
+    margin-top: 2rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .home-contact {
@@ -200,5 +216,13 @@ body {
     width: 60vw;
     height: auto;
     margin-top: 2rem;
+  }
+  .diagnostics-text {
+    width: 40vw;
+    height: auto;
+  }
+  .demo-image-1 {
+    height: 40vw;
+    width: auto;
   }
 }
