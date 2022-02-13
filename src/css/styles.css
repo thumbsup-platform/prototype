@@ -84,6 +84,17 @@ body {
 .tab-content {
   visibility: hidden;
 }
+.people-analytics-text {
+  width: 50vw;
+}
+.people-analytics-video {
+  width: 40vw;
+  height: auto;
+}
+.people-analytics-info {
+  width: 25vw;
+  text-align: left;
+}
 .demo-image-1 {
   height: 350px;
   width: auto;
@@ -150,6 +161,25 @@ body {
     width: 80vw;
     height: auto;
     margin-top: 2rem;
+  }
+  .people-analytics-text {
+    width: 80vw;
+    height: auto;
+  }
+  .people-analytics-video {
+    width: 80vw;
+    height: auto;
+  }
+  .feature-highlight-1 {
+    height: 25rem;
+  }
+  .carousel-item {
+    padding: 0 2rem;
+  }
+  .people-analytics-info {
+    width: 80vw;
+    height: auto;
+    text-align: center;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
